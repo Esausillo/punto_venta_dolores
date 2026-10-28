@@ -4,26 +4,6 @@ Punto de venta móvil hecho con **Flutter + SQLite local**, construido con **TDD
 
 Proyecto del curso Desarrollo Móvil Integral · UTNG. Prof. Anastacio Rodríguez García.
 
-## Capturas
-
-| Catálogo | Carrito | Pago insuficiente | Cobro exitoso |
-|:---:|:---:|:---:|:---:|
-![Catálogo](docs/capturas/01_catalogo.png) | 
-![Carrito](docs/capturas/02_carrito.png) | 
-![Pago insuficiente](docs/capturas/03_pago_insuficiente.png) | 
-![Cobro exitoso](docs/capturas/04_cobro_exitoso.png) |
-| Lista de productos con existencias y precio. | Dos nieves de limón: total $50.00, IVA incluido $6.90. | Paga con $10: la app muestra el error sin cerrarse. | Paga con $100: cambio $50.00 y las existencias bajan de 40 a 38. |
-
-### Cómo agregar tus capturas
-
-1. Crea la carpeta `docs/capturas/` en la raíz del proyecto.
-2. Corre la app con `flutter run`.
-3. Reproduce cada pantalla y toma la captura:
-   - **01_catalogo:** al abrir la app.
-   - **02_carrito:** toca "Nieve de limón" dos veces.
-   - **03_pago_insuficiente:** con el carrito anterior, escribe `10` en "Paga con $" y toca Cobrar.
-   - **04_cobro_exitoso:** escribe `100` en "Paga con $" y toca Cobrar.
-4. Guarda las imágenes en `docs/capturas/` con esos nombres exactos (`.png`).
 
 ## Características
 
